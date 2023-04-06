@@ -1,0 +1,49 @@
+.headerTab{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+tr{
+    cursor: pointer;
+}
+
+td button{
+    background-color: red !important;
+}
+
+.headerTab button{
+    background-color: #86e660;
+}
+
+.headerTab button:hover{
+    background-color: #86e660;
+}
+
+.MuiDialogActions-root button:first-of-type{
+    color: red;
+}
+
+.MuiDialogActions-root button:last-of-type{
+    color: #86e660;
+}
+
+.headerTab button:first-of-type{
+    background-color: orange;
+    margin-left: 20px;
+}
+
+.headerTab button:nth-of-type(2){
+    margin-left: 20px;
+    
+}
+
+
+.headerTab button:last-of-type{
+    background-color: red;
+    margin-left: 20px;
+}
+
+
+
+
